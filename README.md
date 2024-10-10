@@ -40,22 +40,21 @@ Ensure you have the following installed:
    git clone <repository_url>
    Compile the Project:
 
-Use the Makefile to compile the emulator:
-
-bash
-Copy code
-make riscv
-Running the Program
-After successfully compiling the project, you can run the emulator with the following commands:
-
-Example Test Cases
-To run a test program with the random input:
-
-bash
-Copy code
-./riscv -r -e ./code/input/simple.input
-To disassemble a custom input file:
-
-bash
-Copy code
-./riscv -d ./code/input/custom_sgt.input
+   Use the Makefile to compile the emulator:
+   
+   ```bash
+   make riscv
+   
+   Running the Program
+   After successfully compiling the project, you can run the emulator with the following commands:
+   
+   Example Test Cases
+   To run a test program with the random input:
+   
+   ```bash
+   ./riscv -r -e ./code/input/simple.input
+   
+   To disassemble a custom input file:
+   
+   ```bash
+   ./riscv -d ./code/input/custom_sgt.input
